@@ -1,7 +1,7 @@
 const movieInput=document.querySelector("#movie-name");
 const movieSearchButton=document.querySelector("#movie-search");
 const movieList=document.querySelector("#movie-list");
-const Key="e6d0d59c"; // http://www.omdbapi.com/ burda kayıt ol maile gelen keyi yaz    
+const Key="XXXXXXXXXX"; // http://www.omdbapi.com/    --> get key
 
 
 const getMovie=(movieName)=>{
