@@ -5,7 +5,6 @@ const Key="e6d0d59c"; // http://www.omdbapi.com/ burda kayıt ol maile gelen key
 
 
 const getMovie=(movieName)=>{
-    let data;
     let url=`http://www.omdbapi.com/?apikey=${Key}&s=${movieName}`;
     let=data=fetch(url)
          .then(res=>res.json())  
